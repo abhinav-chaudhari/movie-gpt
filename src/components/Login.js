@@ -81,7 +81,7 @@ Login = () => {
     <div>
         <Header />
         <div className='absolute'>
-            <img className='h-screen object-cover' src={BG_IMG_URL}
+            <img className='h-screen object-cover md:h-auto' src={BG_IMG_URL}
             alt="background" />
         </div>
         <form onSubmit={(e) => e.preventDefault()} className='w-full md:w-3/12 absolute p-12 bg-black rounded-lg my-36 mx-auto right-0 left-0 text-white bg-opacity-85'>
