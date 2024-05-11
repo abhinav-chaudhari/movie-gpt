@@ -10,7 +10,7 @@ const MainContainer = () => {
     // also known as "Early Return"
     if(movies === null) return ;
     
-    const mainMovie = movies[1];
+    const mainMovie = movies[0];
     // console.log(mainMovie);
 
     const {original_title, overview, id} = mainMovie;
