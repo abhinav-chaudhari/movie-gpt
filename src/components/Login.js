@@ -81,10 +81,10 @@ Login = () => {
     <div>
         <Header />
         <div className='absolute'>
-            <img src={BG_IMG_URL}
+            <img className='h-screen object-cover' src={BG_IMG_URL}
             alt="background" />
         </div>
-        <form onSubmit={(e) => e.preventDefault()} className=' w-3/12 absolute p-12 bg-black rounded-lg my-36 mx-auto right-0 left-0 text-white bg-opacity-85'>
+        <form onSubmit={(e) => e.preventDefault()} className='w-full md:w-3/12 absolute p-12 bg-black rounded-lg my-36 mx-auto right-0 left-0 text-white bg-opacity-85'>
             <h1 className='font-bold text-3xl py-4'>{isSignInForm ? "Sign in" : "Sign Up"}</h1>
             {!isSignInForm && <input ref={name} type='text' placeholder='Full Name' className='p-4 my-4 w-full bg-gray-900' />}
             <input ref={email} type='text' placeholder='Email Address' className='p-4 my-4 w-full bg-gray-900' />
