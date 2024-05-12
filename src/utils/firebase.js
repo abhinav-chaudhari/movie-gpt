@@ -10,10 +10,10 @@ import { getAuth } from "firebase/auth";
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_KEY,
   authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
+  projectId: "moviegpt-2cfd2",
   storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
   messagingSenderId: process.env.REACT_APP_MESSAGINGSENDERID,
-  appId: process.env.REACT_APP_APPID,
+  appId: "1:659872271328:web:5a5e169e8531dc2e58f985",
   measurementId: process.env.REACT_APPMEASUREMENTID 
 };
 
