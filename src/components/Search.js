@@ -4,6 +4,7 @@ import MovieSuggestion from './MovieSuggestion'
 import { BG_IMG_URL } from '../utils/constants'
 
 const Search = () => {
+  
   return (
     <>
     <div className='fixed -z-10'>

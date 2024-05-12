@@ -9,12 +9,12 @@ import { getAuth } from "firebase/auth";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_KEY,
-  authDomain: "moviegpt-2cfd2.firebaseapp.com",
-  projectId: "moviegpt-2cfd2",
-  storageBucket: "moviegpt-2cfd2.appspot.com",
-  messagingSenderId: "659872271328",
-  appId: "1:659872271328:web:5a5e169e8531dc2e58f985",
-  measurementId: "G-9EZQGV3DVV"
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGINGSENDERID,
+  appId: process.env.REACT_APP_APPID,
+  measurementId: process.env.REACT_APPMEASUREMENTID 
 };
 
 // Initialize Firebase
